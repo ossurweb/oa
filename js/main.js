@@ -60,13 +60,19 @@ interval: false
 
 function hideLogDesc(){
 $(".braces-logo-carousel").css("opacity","0");
+$(".braces-logo-carousel-p").css("opacity","0");
 $(".braces-decription").css("opacity","0");
 $(".osteo").css("opacity","0");
+
+
 }
+
+
 
 function showLogDesc(){
 $(".main-brace .braces-decription").fadeIn().css("opacity","1");
 $(".main-brace .braces-logo-carousel").fadeIn().css("opacity","1");
+$(".main-brace .braces-logo-carousel-p").fadeIn().css("opacity","1");
 $(".main-brace .osteo").fadeIn().css("opacity","1");
 
 }
@@ -94,8 +100,10 @@ $('#myCarousel').bind('slid.bs.carousel', function (e) {
 
 function removeXs(){
 $(".active").children(':eq( 1 )').removeClass('hidden-xs');
-
 }
+
+
+
 
 
 
@@ -112,6 +120,8 @@ function zoomIn(){
       if ($(".col-sm-4").hasClass("main-brace")){
       showLogDesc()
       removeXs()
+
+
             
       }
    
@@ -155,13 +165,22 @@ $( ".right" ).one( "click", function() {
         $(".active").children(':eq( 1 )').addClass('main-brace');
           showLogDesc()
            // $(".main-brace").css("zoom","1.2").css("margin-top","1%");
+
+
     });
 
     //add classes to brace 1 and 3
     hiddenXs()
     hideFirstFirst()
 
+//show hide brace btn on hover
+$(".zoomIn" ).mouseover(function() {
+$(".main-brace .hover-state").css("opacity","1");
+});
 
+$(".zoomIn" ).mouseout(function() {
+$(".main-brace .hover-state").css("opacity","0");
+});
 
 
 

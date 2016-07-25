@@ -81,6 +81,8 @@ body {
   height: 700px;
 }
 
+
+
 h3 strong{
 font-weight:600!important;
 }
@@ -148,8 +150,9 @@ nav.shrink .navbar-toggle {
   background: rgba(255, 255, 255, 0.9) !important;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  color: #fff;
+  color: #000;
   background-color: #ffc758 !important;
+   opacity: 	1!important;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -164,6 +167,7 @@ nav.shrink .navbar-toggle {
 .navbar-inverse .navbar-nav>.current>a:hover {
   color: #fff;
   background-color: #ffc758 !important;
+
 } 
 
 nav li:hover{
@@ -179,6 +183,7 @@ transition: all 0.3s ease 0s;
   height: 398px;
 }
 .braces-container{
+padding-bottom: 2em;
 
 }
 .braces-container img, .braces-container button {
@@ -232,17 +237,18 @@ transition: all 0.3s ease 0s;
   top:-20px;
 }
 .braces-decription {
-  text-align: left;
-    /* margin-left: 24%; */
-    margin: 0 auto;
-    max-width: 60%;
+display: table;
+margin: auto;
+}
+
+.braces-decription-content {
+text-align: left!important;
+
 }
 .braces-decription-carousel {
   margin-left: 34%;
 }
-.alternative-braces-decription {
-  margin-left: 23%;
-}
+
 .text-margin-padding {
   margin-top: 8%;
   padding-left: 4em;
@@ -251,7 +257,7 @@ transition: all 0.3s ease 0s;
 .braces-selection-alternative {
   padding-top: 3em;
   padding-bottom: 3em;
-  background-color: #f5f5f5;
+  background-color: #f8f8f8;
 }
 
 /*carousel*/
@@ -266,16 +272,16 @@ transition: all 0.3s ease 0s;
   left: -7.5%;
 }
 .carousel-inner .active.left {
-  left: -30.33%;
+  left: -33.33%;
 }
 .carousel-inner .active.right {
-  left: 30.33%;
+  left: 33.33%;
 }
 .carousel-inner .next {
-  left: 30.33%;
+  left: 33.33%;
 }
 .carousel-inner .prev {
-  left: -30.33%;
+  left: -33.33%;
 }
 .carousel-control.left, .carousel-control.right {
   background: rgba(999, 999, 876, 0)!important;
@@ -340,10 +346,21 @@ color: #363636!important;
 padding-top: 1em;
 font-size: 15px;
 font-weight: 600;
+line-height: 24px;
+}
+
+.braces-logo-carousel-p{
+padding-top: 0.8em;
+min-height: 135px;
 }
 
 .main-brace:hover{
 opacity: 0.8!important;
+}
+
+.hover-state{
+opacity:0;
+margin-top:-120%;
 }
 
 .main-brace{
@@ -1062,6 +1079,9 @@ blockquote .notch-left {
   .bottom-left {
     height: 15% !important;
   }
+  .hover-state{
+  margin-top: -150%;
+  }
 }
 
 
@@ -1079,16 +1099,8 @@ blockquote .notch-left {
 
 
 
-
-
-
- 
-
-
 @media (max-width:991px) {
-  .alternative-braces-decription {
-    margin-left: 34%;
-  }
+  
   .top-right {
     height: 10% !important;
   }
@@ -1098,7 +1110,12 @@ blockquote .notch-left {
   .fit-backgr-1 {
     background-position: 23% 20%;
   }
+
+   .hover-state{
+  margin-top: -180%;
+  }
 }
+
 @media (max-width:767px) {
   .arrow-left-blue {
     position: absolute;
@@ -1123,6 +1140,18 @@ blockquote .notch-left {
   .carousel-inner .prev {
     left: -60%;
   }
+
+  .carousel .top-left{
+  width: 40%;
+  }
+
+  .hover-state{
+  opacity: 1!important;
+  margin-top:0;
+
+  }
+
+ }
 
 @media (max-width:767px) and (-webkit-min-device-pixel-ratio:0) {
   .carousel-inner > .item.next, .carousel-inner > .item.active.right {
@@ -1163,9 +1192,6 @@ blockquote .notch-left {
 }
 @media (max-width:720px) {
 
-  .alternative-braces-decription {
-    margin-left: 30%;
-  }
 }
 
 
@@ -1181,13 +1207,9 @@ blockquote .notch-left {
 }
 
 
-
-
 @media (max-width:480px) {
  
-  .alternative-braces-decription {
-    margin-left: 25%;
-  }
+
   .text-margin-padding {
     padding-left: 2em;
     padding-right: 2em;
@@ -1197,12 +1219,7 @@ blockquote .notch-left {
   }
 }
 @media (max-width:375px) {
-  .braces-decription {
-    margin-left: 15%;
-  }
-  .alternative-braces-decription {
-    margin-left: 15%;
-  }
+
   .arrow-left {
     position: absolute;
     left: 5px;
@@ -1230,14 +1247,14 @@ blockquote .notch-left {
   .callout-white h1 {
     font-size: 32px;
   }
+
+	  .braces-logo-carousel-p{
+	min-height: 170px;
+	}
 }
 @media (max-width:320px) {
-  .braces-decription {
-    margin-left: 9%;
-  }
-  .alternative-braces-decription {
-    margin-left: 9%;
-  }
+
+
 }
 @media (max-width:1440px) {
   .container {

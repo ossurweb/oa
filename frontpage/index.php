@@ -33,33 +33,43 @@ include('../includes/header.php');
 	                             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
 		                             <a href="../braces/unloader_dual.php">
 		                             <img class="braces-logo-carousel" src="../img/dual/unloader-dual.png" alt="Össur">
-		                              <p class="braces-logo-carousel">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
-	                                    <br>
+		                              <p class="braces-logo-carousel-p">Provides stability and relieves the pain, without compromising mobility. Support for osteoarthritis combined with ligament instability.</p>
+	                                  
 		                             <img src="../img/dual/unloader-dual-brace.png" class="img-responsive">
 		                             </a>
-		                             <br>
-										<div class="braces-decription">
-											<span class="osteo"></span><p class="symbol-margin"><b>Osteoarthritis:</b>mild to moderate</p>
-											<span class="movement"></span><p class="symbol-margin"><b>Movement:</b>average to high impact</p>
-											<span class="activity"></span><p class="symbol-margin"><b>Activities:</b>walking, hiking, running, cycling</p>
+		                             
+									<div class="braces-decription">
+											<div class="braces-decription-content">
+											<span class="osteo"></span><p class="symbol-margin"><strong>Osteoarthritis:</strong>mild to moderate, combined with ligament instability</p>
+											<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong>fast and sliding, high impact</p>
+											<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong>track & field, snow sports, basketball</p>
 											
 										</div>
+									</div>
+
+										 <a href="unloader_dual.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
 	                             </div>
                             </div>
                              <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
 	                              <a href="../braces/unloader_fit.php">
 	                                <img class="braces-logo-carousel" src="../img/fit/unloader-fit.png" alt="Össur">
-	                                <p class="braces-logo-carousel">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
-	                                    <br>
+	                                <p class="braces-logo-carousel-p">Ultralight, discreet and clinically proven to alleviate the pain. Ideal for everyday adventures such as shopping and gardening, perhaps a round of golf. </p>
+	                                   
 	                                <img src="../img/fit/unloader-fit-brace.png" class="img-responsive">
 	                                </a>
-	                                 <br>
+
+	                                
+	                               
 										<div class="braces-decription">
-											<span class="osteo"></span><p class="symbol-margin"><b>Osteoarthritis:</b> mild to moderate</p>
-											<span class="movement"></span><p class="symbol-margin"><b>Movement:</b> average to high impact</p>
-											<span class="activity"></span><p class="symbol-margin"><b>Activities:</b> walking, hiking, running, cycling</p>
+											<div class="braces-decription-content">
+											<span class="osteo"></span><p class="symbol-margin"><strong>Osteoarthritis:</strong> mild to moderate</p>
+											<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong> low to average impact</p>
+											<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> walking, shopping, gardening, golf</p>
 										</div>
+										</div>
+
+										  <a href="unloader_fit.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div>
                             <div class="item">
@@ -67,33 +77,45 @@ include('../includes/header.php');
 	                               <a href="../braces/unloader_one.php">
 
 	                                <img class="braces-logo-carousel" src="../img/one/unloader-one.png" alt="Össur">
-	                                <p class="braces-logo-carousel">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
-	                                   <br>
+	                                <p class="braces-logo-carousel-p">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
+	   
 	                                <img src="../img/one/unloader-one-brace.png" class="img-responsive">
 	                                </a>
-	                                 <br>
-										<div class="braces-decription">
-											<span class="osteo"></span><p class="symbol-margin"><b>Osteoarthritis:</b>mild to moderate</p>
-											<span class="movement"></span><p class="symbol-margin"><b>Movement:</b>average to high impact</p>
-											<span class="activity"></span><p class="symbol-margin"><b>Activities:</b>walking, hiking, running, cycling</p>
+
+	                                  
+	                                
+									<div class="braces-decription">
+											<div class="braces-decription-content">
+											<span class="osteo"></span><p class="symbol-margin"><strong>Osteoarthritis:</strong>mild to moderate</p>
+											<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong>average to high impact</p>
+											<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong>walking, hiking, running, cycling</p>
 										</div>
+										</div>
+
+										<a href="unloader_one.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
 	                              <a href="../braces/unloader_custom.php">
 	                                <img class="braces-logo-carousel" src="../img/custom/unloader-custom.png" alt="Össur">
-	                                 <p class="braces-logo-carousel">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
-	                                <br>
+	                                 <p class="braces-logo-carousel-p">Rigid, durable and customized for heavy-duty pain relief. Custom-made to suit a range of sizes and lifestyles.</p>
+	                                
 	                                <img src="../img/custom/unloader-custom-brace.png" class="img-responsive">
 	                                </a>
+
+	                                 
 	                                 
 										<div class="braces-decription">
-											<span class="osteo"></span><p class="symbol-margin"><b>Osteoarthritis:</b>mild to moderate</p>
-											<span class="movement"></span><p class="symbol-margin"><b>Movement:</b>average to high impact</p>
-											<span class="activity"></span><p class="symbol-margin"><b>Activities:</b>walking, hiking, running, cycling</p>
+											<div class="braces-decription-content">
+											<span class="osteo"></span><p class="symbol-margin"><strong>Osteoarthritis:</strong>moderate to severe</p>
+											<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong>average to high impact</p>
+											<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong>heavy-duty work and walking</p>
 											
 										</div>
+										</div>
+
+										 <a href="unloader_custom.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div> 
                             </div>
