@@ -7,7 +7,7 @@ include('../includes/header.php');
 	<div class="container">
 		<div class="row ">
 			<div class ="col-md-12 about callout-white img-responsive ">
-				<div class ="col-xs-12 col-sm-6 col-sm-offset-3 top-quote">	
+				<div class ="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 top-quote-about">	
 					<h1>Dont let knee pain hold you back</h1>
 					<p>Ask questions, find solutions, and get on with life’s big adventure! This section takes you through a few of the more frequently-asked questions from people experiencing knee osteoarthritis and the pain that accompanies this condition.</p>
 				</div>
@@ -18,9 +18,9 @@ include('../includes/header.php');
 <section class="accordion-nav-section" id="">
     <div class="container accordion-nav-backgr">
     <div class="row">
-    <div class ="col-sm-4 accordion-nav-headline" id="treatment"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Treatment</strong>:non-surgical options</h3></div>
-    <div class ="col-sm-4 accordion-nav-headline" id="appointment"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Appointments</strong>:getting a brace</h3></div>
-    <div class ="col-sm-4 accordion-nav-headline" id="braces"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Braces</strong>:why and how to use</h3></div>
+    <div class ="col-sm-4 accordion-nav-headline" id="treatment" data-ga-type="Navigation" data-ga-title="Treatment:non-surgical options"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Treatment</strong> : non-surgical options</h3></div>
+    <div class ="col-sm-4 accordion-nav-headline" id="appointment" data-ga-type="Navigation" data-ga-title="Appointment:get a brace"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Appointments</strong> : getting a brace</h3></div>
+    <div class ="col-sm-4 accordion-nav-headline" id="braces" data-ga-type="Navigation" data-ga-title="Braces:why and how to use"><h3><span class="glyphicon glyphicon-menu-down"></span><strong>Braces</strong> : why and how to use</h3></div>
         </div>
     </div>
 </section>
@@ -29,14 +29,14 @@ include('../includes/header.php');
 	<div class="container accordion-backrg">
 		<div class="row ">
 				<div class ="col-xs-12 col-sm-8 col-sm-offset-2 accordion-quote">	
-                <h3><strong>Treatment</strong>:Non surgical options</h3>
+                <h3><strong>Treatment</strong> : Non surgical options</h3>
                 <p>Although no cure currently exists for osteoarthritis (OA) of the knee, several non-surgical treatment options are available to help alleviate the pain and allow you to get on with your life.
                 </p>
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <a role="button" data-ga-type="FAQ" data-ga-title="Is bracing an option for knee OA?" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Is bracing an option for knee OA?
                                 </a>
@@ -52,7 +52,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Can physical or occupational therapy help?" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Can physical or occupational therapy help?
                                 </a>
@@ -70,7 +70,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingThree">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="What about medication and injections?"  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     What about medication and injections?
                                 </a>
@@ -89,7 +89,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFour">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Should I exercise and manage my weight?"  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Should I exercise and manage my weight?
                                 </a>
@@ -115,7 +115,7 @@ include('../includes/header.php');
     <div class="container accordion-backrg">
         <div class="row ">
                 <div class ="col-xs-12 col-sm-8 col-sm-offset-2 accordion-quote">  
-                <h3><strong>Appointments</strong>:Getting a brace</h3>
+                <h3><strong>Appointments</strong> : Getting a brace</h3>
                 <p>Although no cure currently exists for osteoarthritis (OA) of the knee, several non-surgical treatment options are available to help alleviate the pain and allow you to get on with your life.
                 </p>
                 <div class="panel-group" id="accordion-1" role="tablist" aria-multiselectable="true">
@@ -123,7 +123,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFive">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <a role="button" data-ga-type="FAQ" data-ga-title="What steps should I follow to get an Unloader brace?" data-toggle="collapse" data-parent="#accordion-1" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     What steps should I follow to get an Unloader brace?
                                 </a>
@@ -161,14 +161,14 @@ include('../includes/header.php');
     <div class="container accordion-backrg">
         <div class="row ">
                 <div class ="col-xs-12 col-sm-8 col-sm-offset-2  accordion-quote">  
-                <h3><strong>Braces</strong>:Why and how to use</h3>
+                <h3><strong>Braces</strong> : Why and how to use</h3>
                 <p>An Unloader brace that has been correctly fit by a practitioner is easy to maintain, and when used properly, can alleviate the pain caused by knee osteoarthritis (OA).
                 </p>
                 <div class="panel-group" id="accordion-2" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingSix">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <a role="button" data-ga-type="FAQ" data-ga-title="How many hours per day should I wear my Unloader brace initially?" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     How many hours per day should I wear my Unloader brace initially?
                                 </a>
@@ -190,7 +190,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingSeven">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Going forward, how long should I use my Unloader brace for?" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                     <i class="more-less glyphicon plus-icon"></i>
                                   Going forward, how long should I use my Unloader brace for?
                                 </a>
@@ -207,7 +207,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingEight">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="How does an Unloader brace work?" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     How does an Unloader brace work?
                                 </a>
@@ -223,7 +223,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingNine">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Do the Unloader braces come in different colors?" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Do the Unloader braces come in different colors?
 
@@ -247,7 +247,7 @@ include('../includes/header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTen">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Can I work out in an Unloader brace?" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Can I work out in an Unloader brace?
 
@@ -267,7 +267,7 @@ include('../includes/header.php');
                                   <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingEleven">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title="Will an Unloader brace fit under my clothing?" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                     <i class="more-less glyphicon plus-icon"></i>
                                     Will an Unloader brace fit under my clothing?
 
@@ -287,7 +287,7 @@ include('../includes/header.php');
                                   <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwelve">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                <a class="collapsed" data-ga-type="FAQ" data-ga-title=" Where do I get professionally fit, ensuring optimum fit and performance?"  role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                     <i class="more-less glyphicon plus-icon"></i>
                                    Where do I get professionally fit, ensuring optimum fit and performance?
                                 </a>

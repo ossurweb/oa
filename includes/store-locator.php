@@ -1,6 +1,6 @@
    
     <footer id="footerWrapper" class="footer2">
-    <section id="mainFooter">
+   <section id="mainFooter">
         <div class="container">
             <div class="row">
             
@@ -8,9 +8,9 @@
                     <div class="footerWidget">
                         <h3>Get a brace</h3>
                         <ul class="list-unstyled worksList">
-                            <li><a href="#" class="tips" title="">Find a Practitioner</a></li>
-                            <li><a href="#" class="tips" title="">Request More Information</a></li>
-                            <li><a href="#" class="tips" title=""></a></li>
+                            <li><a href="../find" data-ga-type="Footer" data-ga-title="Find a practitioner" class="tips" title="">Find a Practitioner</a></li>
+                            <li><a href="../more-info" data-ga-type="Footer" data-ga-title="Request more info" class="tips" title="">Request More Information</a></li>
+                            <li><a href="#"  class="tips" title=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -19,9 +19,9 @@
                         
                         <h3>Learn more</h3>
                         <ul class="list-unstyled worksList">
-                            <li><a href="#" class="tips" title="">Braces</a></li>
-                            <li><a href="#" class="tips" title="">FAQs</a></li>
-                            <li><a href="#" class="tips" title="">Success Stories</a></li>
+                            <li><a href="../braces" data-ga-type="Footer" data-ga-title="Braces" class="tips" title="">Braces</a></li>
+                            <li><a href="../about" data-ga-type="Footer" data-ga-title="FAQ" class="tips" title="">FAQs</a></li>
+                            <li><a href="../success" data-ga-type="Footer" data-ga-title="Success stories" class="tips" title="">Success Stories</a></li>
                         </ul>
                         
                     </div>
@@ -32,8 +32,8 @@
                         <h3>Company</h3>
                         <ul class="list-unstyled worksList">
                             <li><a href="#" class="tips" title="">About Össur</a></li>
-                            <li><a href="#" class="tips" title="">Össur Corporate</a></li>
-                            <li><a href="#" class="tips" title="">Other Össur Sites</a></li>
+                            <li><a href="https://www.ossur.com/corporate/" data-ga-type="Footer" data-ga-title="ossur/corporate" class="tips" title="">Össur Corporate</a></li>
+                            <li><a href="https://www.ossur.com/americas" data-ga-type="Footer" data-ga-title="ossur.com" class="tips" title="">Other Össur Sites</a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,6 +117,7 @@
                     $('#bh-sl-map-container').storeLocator({
                         'maxDistance': true,
                         'autoGeocode': false,
+                        'geocodeID' : 'bh-sl-find',
                         'mapSettings' : {
                             zoom : 12,
                             mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -133,24 +134,7 @@
 //Contain to a specific region
 (function($) { $(document).ready(function() { var autocomplete; var geocoder; var input = document.getElementById('bh-sl-address'); var options = { componentRestrictions: {'country':'us'}, types: ['(regions)'] }; autocomplete = new google.maps.places.Autocomplete(input,options); }); })(jQuery);
 
-$( "#bh-sl-find" ).on( "click", function() {
-       $('#bh-sl-map-container').storeLocator({
-                        'autoGeocode': true,
-                        'mapSettings' : {
-                            zoom : 12,
-                            mapTypeId: google.maps.MapTypeId.ROADMAP,
-                            disableDoubleClickZoom: true,
-                            scrollwheel: false,
-                            navigationControl: false,
-                            draggable: true
 
-                        }
-                    });
-});
-
- $( "#bh-sl-find" ).click(function() {
-        
-});
 
 //hide/show adresslist in mobile
 $( "#show-list" ).hide();

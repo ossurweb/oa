@@ -29,7 +29,7 @@ include('../includes/header.php');
 						<img src="../img/one/unloader-one-main-mobile.png " class="visible-xs" />
 						<div class="spots hidden-xs">
 							<div id="spot-01-outer">
-								<div id="spot-01">
+								<div id="spot-01" data-ga-type="UI element" data-ga-title="Hotspot: Color-coded buckles ">
 									<a class="spot"></a>
 									<blockquote>Color-coded buckles<br>for easy application
 										<span id="border-right-01"></span>
@@ -37,7 +37,7 @@ include('../includes/header.php');
 								</div>
 							</div>
 							<div id="spot-02-outer">
-								<div id="spot-02">
+								<div id="spot-02" data-ga-type="UI element" data-ga-title="Hotspot: Comfortable and light weight ">
 									<a class="spot"></a>
 
 									<blockquote>Comfortable<br>and light weight 
@@ -46,7 +46,7 @@ include('../includes/header.php');
 								</div>
 							</div>
 							<div id="spot-03-outer">
-								<div id="spot-03">
+								<div id="spot-03" data-ga-type="UI element" data-ga-title="Hotspot: Adjustable pain relief ">
 									<a class="spot"></a>
 									<blockquote>Adjustable <br>pain relief
 										<span id="border-right-03"></span>
@@ -69,13 +69,13 @@ include('../includes/header.php');
 						<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> walking, hiking, running, cycling</p>
 					</div>
 					<br>
-					<button type="button" class="btn btn-default unloader-btn">Find a practitioner</button>
+					 <a href="../find" data-ga-type="Button" data-ga-title="Find a practitioner"><button type="button" class="btn btn-default unloader-btn">Find a practitioner</button></a>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="" id="unloader-one-info">
-		<div class="container braces-info brace-section ">
+		<div class="container braces-info brace-section accordion-backrg ">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 headline-info ">	
 					<h3>Reduces medication use</h3>
@@ -98,7 +98,7 @@ include('../includes/header.php');
 		</div>
 	</section>
 	<section class="" id="unloader-one-info-2">
-        <div class="container accordion-backrg  ">
+        <div class="container background-color-1  ">
          <div class="row">
             <div class ="col-md-12 one-backgr-1 img-responsive ">   
             <img class="img-responsive top-right" src="../img/brace_corner_top_right.png"/>  
@@ -113,7 +113,7 @@ include('../includes/header.php');
        </div>
     </section>
 		<section id="unloader-one-info-3">
-        <div class="container ">
+        <div class="container background-color-2 ">
          <div class="row">
             <div class ="col-md-12 one-backgr-2 img-responsive ">   
          		<img class="img-responsive bottom-left" src="../img/brace_corner_left_down.png"/> 
@@ -138,10 +138,10 @@ include('../includes/header.php');
 			</div>
 				<div class ="col-md-12 brace-section nav-bottom-height ">
 					<div class ="arrow-left-blue"><img class="img-responsive hidden-xs" src="../img/arrow_left_blue.png" alt="Össur"></div>
-					<a href ="unloader_custom.php"><div class ="nav-bottom-right"><img class="img-responsive hidden-xs" src="../img/custom/custom_other_product.png" alt="Össur"><img class="visible-xs img-responsive" src="../img/custom/custom_other_product_right_mobile.png" alt="Össur"></div></a>
+					<a href ="unloader_custom.php"  data-ga-type="Navigation" data-ga-title="Goto:unloader-custom "><div class ="nav-bottom-right"><img class="img-responsive hidden-xs" src="../img/custom/custom_other_product.png" alt="Össur"><img class="visible-xs img-responsive" src="../img/custom/custom_other_product_right_mobile.png" alt="Össur"></div></a>
 
 					<div class ="arrow-right-blue"><img class="img-responsive hidden-xs" src="../img/arrow_right_blue.png" alt="Össur"></div>
-					<a href ="unloader_fit.php"><div class ="nav-bottom-left"><img class="img-responsive hidden-xs " src="../img/fit/fit_other_product.png" alt="Össur"><img class="visible-xs img-responsive" src="../img/fit/fit_other_produc_left_mobile.png" alt="Össur"></div></a>
+					<a href ="unloader_fit.php"  data-ga-type="Navigation" data-ga-title="Goto:unloader-fit"><div class ="nav-bottom-left"><img class="img-responsive hidden-xs " src="../img/fit/fit_other_product.png" alt="Össur"><img class="visible-xs img-responsive" src="../img/fit/fit_other_produc_left_mobile.png" alt="Össur"></div></a>
 					<div class ="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 bottom-quote callout-blue brace-section ">	
 						<h1 class="hidden-xs">OWN YOUR NEXT ADVENTURE WITH AN ÖSSUR BRACE	</h1>
 					</div>

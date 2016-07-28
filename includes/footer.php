@@ -8,7 +8,7 @@
         
                 <div class ="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2 find-a-practioner-text headline-main">  
                 <p>Talk to your doctor about getting an Össur Unloader brace for your knee osteoarthritis. Once prescribed, visit an orthotist or use our search tool to find a practitioner near you who can get you fit with the right brace.</p>
-                <a href="../find"><button type="button" class="btn btn-default unloader-btn">Find a practitioner</button></a>
+                <a href="../find" data-ga-type="button" data-ga-title="Find a practitioner"><button type="button" class="btn btn-default unloader-btn">Find a practitioner</button></a>
                 </div>
             </div>
         </div>
@@ -24,9 +24,9 @@
                     <div class="footerWidget">
                         <h3>Get a brace</h3>
                         <ul class="list-unstyled worksList">
-                            <li><a href="#" class="tips" title="">Find a Practitioner</a></li>
-                            <li><a href="#" class="tips" title="">Request More Information</a></li>
-                            <li><a href="#" class="tips" title=""></a></li>
+                            <li><a href="../find" data-ga-type="Footer" data-ga-title="Find a practitioner" class="tips" title="">Find a Practitioner</a></li>
+                            <li><a href="../more-info" data-ga-type="Footer" data-ga-title="Request more info" class="tips" title="">Request More Information</a></li>
+                            <li><a href="#"  class="tips" title=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,9 +35,9 @@
                         
                         <h3>Learn more</h3>
                         <ul class="list-unstyled worksList">
-                            <li><a href="#" class="tips" title="">Braces</a></li>
-                            <li><a href="#" class="tips" title="">FAQs</a></li>
-                            <li><a href="#" class="tips" title="">Success Stories</a></li>
+                            <li><a href="../braces" data-ga-type="Footer" data-ga-title="Braces" class="tips" title="">Braces</a></li>
+                            <li><a href="../about" data-ga-type="Footer" data-ga-title="FAQ" class="tips" title="">FAQs</a></li>
+                            <li><a href="../success" data-ga-type="Footer" data-ga-title="Success stories" class="tips" title="">Success Stories</a></li>
                         </ul>
                         
                     </div>
@@ -48,8 +48,8 @@
                         <h3>Company</h3>
                         <ul class="list-unstyled worksList">
                             <li><a href="#" class="tips" title="">About Össur</a></li>
-                            <li><a href="#" class="tips" title="">Össur Corporate</a></li>
-                            <li><a href="#" class="tips" title="">Other Össur Sites</a></li>
+                            <li><a href="https://www.ossur.com/corporate/" data-ga-type="Footer" data-ga-title="ossur/corporate" class="tips" title="">Össur Corporate</a></li>
+                            <li><a href="https://www.ossur.com/americas" data-ga-type="Footer" data-ga-title="ossur.com" class="tips" title="">Other Össur Sites</a></li>
                         </ul>
                     </div>
                 </div>

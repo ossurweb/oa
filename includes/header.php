@@ -62,6 +62,7 @@
         <li class="<?php echo ($menu === 'about' ? 'active' : '');?>"><a href="../about">FAQs</a></li>
         <li class="<?php echo ($menu === 'success' ? 'active' : '');?>"><a href="../success">Success stories</a></li>
         <li class="<?php echo ($menu === 'find' ? 'active' : '');?>"><a href="../find">Find a practitioner</a></li>
+        <li class="<?php echo ($menu === 'more-info' ? 'active' : '');?> visible-xs"><a href="../more-info">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

@@ -17,6 +17,8 @@ $( document ).ready(function() {
   }
 
 });
+
+
 // var w = window.innerWidth;
 
 
@@ -80,6 +82,10 @@ $(".main-brace .osteo").fadeIn().css("opacity","1");
 }
 
 function hiddenXs(){
+//prevent nav active from hiding
+  if($(".nav>li").hasClass("active")){
+
+  }else
 
     $(".active").children(':eq( 0 )').addClass('hidden-xs');
     $(".active").children(':eq( 2 )').addClass('hidden-xs');
@@ -87,6 +93,8 @@ function hiddenXs(){
     $(".active").children(':eq( 2 )').addClass('brace-right');
 
 }
+
+
 
 function hideFirstFirst(){
 $(".active").children(':eq( 0 )').css('opacity','0');
@@ -295,5 +303,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
 
 });

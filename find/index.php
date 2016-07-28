@@ -5,7 +5,7 @@ include('../includes/header.php');
 
 <section id="provider-location" class="first-section">
 		<div class="bh-sl-container">
-		<div class="row">
+	
 				<div class="container carousel-backrg store-locator-first-section headline-main  ">
 				<div class="col-xs-12 col-md-10 col-md-offset-1">
 				<div class="col-xs-12 col-md-10">
@@ -24,19 +24,20 @@ include('../includes/header.php');
 								</div>
 							<div class="col-xs-3 col-sm-5 col-md-2">
 								<label for="bh-sl-address">Radius</label>
-									<select id="bh-sl-maxdistance" name="bh-sl-maxdistance">
-						                <option value="100000">-</option>
-						                <option value="25">25 Miles</option>
-						                <option value="50">50 Miles</option>
-						                <option value="100">100 Miles</option>
+									<select id="bh-sl-maxdistance"  name="bh-sl-maxdistance">
+						                <option value="10" data-ga-type="Find tool" data-ga-title="10">10 miles</option>
+						                <option value="25" data-ga-type="Find tool" data-ga-title="25">25 Miles</option>
+						                <option value="50" data-ga-type="Find tool" data-ga-title="50">50 Miles</option>
+						                <option value="100" data-ga-type="Find tool" data-ga-title="100">100 Miles</option>
 					              	</select>
 							</div>
 							</div>
 						
-						<button id="bh-sl-submit" class="btn btn-default unloader-btn" type="submit"><span><img src="../img/search_icon.png"></span>&nbsp;Search practitioner</button>
+						<button id="bh-sl-submit" class="btn btn-default unloader-btn" type="submit" data-ga-type="Find tool" data-ga-title="Search a practitioner"><span><img src="../img/search_icon.png"></span>&nbsp;Search practitioner</button>
+
 						<button class="btn btn-default unloader-btn-2">Or</button>
 
-						<button id="bh-sl-find" class="btn btn-default unloader-btn-1"><span><img src="../img/find_icon.png"></span>&nbsp;Find a practitioner near me</button>	
+						<button id="bh-sl-find" class="btn btn-default unloader-btn-1" data-ga-type="Find tool" data-ga-title="Find a practitioner near me"><span><img src="../img/find_icon.png"></span>&nbsp;Find a practitioner near me</button>	
 						</form>
 
 
@@ -46,7 +47,7 @@ include('../includes/header.php');
 	
 
 			<div id="bh-sl-map-container" class="bh-sl-map-container ">
-				<div class="row">
+				
 				
 					<div id="map-results-container" class="container no-padding">
 					<button id="hide-list" class="btn btn-default unloader-btn toggle-list ">Hide list</button>
@@ -56,9 +57,9 @@ include('../includes/header.php');
 							<ul class="list list-unstyled"></ul>
 						</div>
 					</div>
-				</div>
+				
       </div>
-    </div>
+    
       </div>
 
 

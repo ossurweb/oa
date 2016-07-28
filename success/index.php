@@ -2,7 +2,7 @@
 $menu = 'success';
 include('../includes/header.php');
 ?>
-
+<!--add href="#" and inside data-toggle "modal" to trigger modal window-->
 <section class="first-section" id="braces-top">
 	<div class="container">
 		<div class="row ">
@@ -15,11 +15,11 @@ include('../includes/header.php');
 		</div>
 	</div>
 </section>
-<section id="success-stories-1" class="brace-section">
-        <div class="container ">
+<section id="success-stories-1" class="">
+        <div class="container brace-section accordion-backrg ">
         <div class="row row-centered">
-            <div class="col-sm-3  thumb hidden-xs col-centered">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+            <div class="col-sm-3 thumb-no-background hidden-xs col-centered">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-jeffrey.jpg" alt="Short alt text">
 		            </a>
 		     </div>   
@@ -30,7 +30,7 @@ include('../includes/header.php');
 					<h4 class="hidden-xs">Weigthlifter</h4>
 			</div>
 			   <div class="col-xs-5 thumb visible-xs">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-jeffrey.jpg" alt="Short alt text">
 		            </a>
 		     </div> 
@@ -42,8 +42,8 @@ include('../includes/header.php');
         </div>
         </div>
 </section>
-<section id="success-stories-2" class="brace-section">
-        <div class="container success-bacgkround-don img-responsive  ">
+<section id="success-stories-2" class="">
+        <div class="container success-bacgkround-don img-responsive brace-section accordion-backrg  ">
         <div class="row ">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-2 success-text">  
 					<p><q>Here I am on a 240-mile hike on the John Muir Trail.  I carried up to 59 pounds, crossing 10 passes over 11,000 feet, includingMt. Whitney at 14,494 feet. </q></p>
@@ -51,7 +51,7 @@ include('../includes/header.php');
 					<h4 class="hidden-xs">Backpacking</h4>
 				</div>
 				<div class="col-xs-5 col-sm-3 col-lg-4 thumb">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-don.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-don.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-1.jpg" alt="Short alt text">
 		            </a>
 		     </div>   
@@ -63,11 +63,11 @@ include('../includes/header.php');
         </div>
         </div>
 </section>
-<section id="success-stories-3" class="brace-section">
-        <div class="container ">
+<section id="success-stories-3" class="">
+        <div class="container brace-section accordion-backrg ">
           <div class="row row-centered">
-            <div class="col-sm-3 thumb hidden-xs col-centered">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+            <div class="col-sm-3 thumb-no-background hidden-xs col-centered">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-lawrence.jpg" alt="Short alt text">
 		            </a>
 		     </div>   
@@ -77,7 +77,7 @@ include('../includes/header.php');
 					<h4 class="hidden-xs">Boxing</h4>
 			</div>
 			 <div class="col-xs-5 thumb visible-xs">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-lawrence.jpg" alt="Short alt text">
 		            </a>
 		     </div>
@@ -88,8 +88,8 @@ include('../includes/header.php');
         </div>
         </div>
 </section>
-<section id="success-stories-4" class="brace-section">
-        <div class="container success-bacgkround-joan img-responsive ">
+<section id="success-stories-4" class="">
+        <div class="container success-bacgkround-joan img-responsive brace-section accordion-backrg ">
         <div class="row">
             
 				<div class="col-xs-12 col-sm-5 col-sm-offset-2 success-text">  
@@ -98,7 +98,7 @@ include('../includes/header.php');
 					<h4 class="hidden-xs">Pilates and Hiking</h4>
 				</div>
 				<div class="col-xs-5 col-sm-3 col-lg-4  thumb">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-don.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-don.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-joan.jpg" alt="Short alt text">
 		            </a>
 		     </div>   
@@ -110,11 +110,11 @@ include('../includes/header.php');
         </div>
         </div>
 </section>
-<section id="success-stories-5" class="brace-section">
-        <div class="container img-responsive ">
+<section id="success-stories-5" class="">
+        <div class="container img-responsive brace-section accordion-backrg">
         <div class="row row-centered">
-            	 <div class="col-sm-3  thumb hidden-xs col-centered  ">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+            	 <div class="col-sm-3  thumb-no-background hidden-xs col-centered  ">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-ken.jpg" alt="Short alt text">
 		            </a>
 		        </div>  
@@ -125,7 +125,7 @@ include('../includes/header.php');
 				</div>
 
 				 <div class="col-xs-5 thumb visible-xs  ">
-		            <a class="thumbnail" href="#" data-image-id="1" data-toggle="modal" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="1" data-toggle="" data-title="2nd Gallery 1st Image" data-caption="2nd Gallery 1st Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-ken.jpg" alt="Short alt text">
 		            </a>
 		        </div>  
@@ -138,17 +138,17 @@ include('../includes/header.php');
 			  
 		<div class="row row-centered">
 		        <div class="col-xs-4 col-sm-3  thumb col-centered"">
-		            <a class="thumbnail" href="#" data-image-id="2" data-toggle="modal" data-title="2nd Gallery 2nd Image" data-caption="2nd Gallery 2nd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="2" data-toggle="" data-title="2nd Gallery 2nd Image" data-caption="2nd Gallery 2nd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-ken-1.jpg" alt="A alt text">
 		            </a>
 		        </div>
 		        <div class="col-xs-4 col-sm-3 thumb col-centered">
-		            <a class="thumbnail" href="#" data-image-id="3" data-toggle="modal" data-title="2nd Gallery 3rd Image" data-caption="2nd Gallery 3rd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="3" data-toggle="" data-title="2nd Gallery 3rd Image" data-caption="2nd Gallery 3rd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-ken-2.jpg" alt="Another alt text">
 		            </a>
 		        </div>
 		          <div class="col-xs-4 col-sm-3 thumb col-centered">
-		            <a class="thumbnail" href="#" data-image-id="4" data-toggle="modal" data-title="2nd Gallery 3rd Image" data-caption="2nd Gallery 3rd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
+		            <a class="thumbnail" data-image-id="4" data-toggle="" data-title="2nd Gallery 3rd Image" data-caption="2nd Gallery 3rd Image Caption" data-image="../img/success-1.jpg" data-target="#image-gallery">
 		                <img class="img-responsive" src="../img/success-ken-3.jpg" alt="Another alt text">
 		            </a>
 		        </div>

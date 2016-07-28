@@ -41,7 +41,7 @@
   font: normal 14px/1.4 Arial, Helvetica, sans-serif;
   padding: 0 0px;
   width: 100%;
-  background-color: #f5f5f5;    
+ 
 }
 /* Avoid issues with Google Maps and CSS frameworks */
 .bh-sl-container > * {

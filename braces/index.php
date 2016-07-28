@@ -29,7 +29,7 @@ include('../includes/header.php');
 						<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong> low to average impact</p>
 						<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> walking, shopping, gardening, golf</p>
 						<br>
-						 <a href="unloader_fit.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
+						 <a href="unloader_fit.php" data-ga-type="Button" data-ga-title="Details:Unloader-fit"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
 					 </div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@ include('../includes/header.php');
 					<span class="movement"></span><p class="symbol-margin"><strong>Movement:</strong> average to high impact</p>
 					<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> walking, hiking, running, cycling</p>
 					<br>
-					<a href="unloader_one.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
+					<a href="unloader_one.php" data-ga-type="Button" data-ga-title="Details:Unloader-one"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@ include('../includes/header.php');
 						<span class="movement"></span><p class="symbol-margin"><strong>Movement: </strong> average to high impact</p>
 						<span class="activity"></span><p class="symbol-margin"><strong>Activities: </strong> heavy-duty work and walking</p>
 						<br>
-						<a href="unloader_custom.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
+						<a href="unloader_custom.php" data-ga-type="Button" data-ga-title="Details:Unloader-one"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
 					</div>
 				</div>
 			</div>
@@ -85,7 +85,7 @@ include('../includes/header.php');
 						<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> track & field, snow sports, basketball</p>
 					
 						<br>
-						<a href="unloader_dual.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
+						<a href="unloader_dual.php" data-ga-type="Button" data-ga-title="Details:Rebound-dual"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
 					</div>
 				</div>
 			</div>

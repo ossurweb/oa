@@ -9,7 +9,7 @@ include('../includes/header.php');
 					<h1>The Adventure ahead</h1>
 					<p>When you have knee osteoarthritis, you want a solution you can rely on. Take control of the pain, quickly and easily. Then take that hiking trip, ride your bike or keep up with the kids. Choose your adventure and the Unloader® will support you every step of the way.</p>
 					<br>
-					 <a href="../braces" data-ga-type="" data-ga-title=""><button type="button" class="btn btn-default unloader-btn">View unloader braces</button></a>
+					 <a href="../braces" data-ga-type="button" data-ga-title="View Braces"><button type="button" class="btn btn-default unloader-btn">View unloader braces</button></a>
 				</div>
 
 				<div class="scroll-for-more"><span class="menu-down page-scroll" href="#index-carousel"><img src="../img/menu-down.png" alt="menu-down" height="20" width="35"></span>
@@ -31,12 +31,12 @@ include('../includes/header.php');
                             <div class="carousel-inner onebyone-carosel">
                                <div class="item active">
 	                             <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
-		                             <a href="../braces/unloader_dual.php">
+		                            
 		                             <img class="braces-logo-carousel" src="../img/dual/unloader-dual.png" alt="Össur">
 		                              <p class="braces-logo-carousel-p">Provides stability and relieves the pain, without compromising mobility. Support for osteoarthritis combined with ligament instability.</p>
 	                                  
-		                             <img src="../img/dual/unloader-dual-brace.png" class="img-responsive">
-		                             </a>
+		                             <img src="../img/dual/unloader-dual-brace.png " data-ga-type="Carousel" data-ga-title="Details:Rebound-dual" class="img-responsive">
+		                             
 		                             
 									<div class="braces-decription">
 											<div class="braces-decription-content">
@@ -47,17 +47,17 @@ include('../includes/header.php');
 										</div>
 									</div>
 
-										 <a href="unloader_dual.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
+										 <a href="../braces/rebound_dual.php " data-ga-type="button" data-ga-title="Rebound-dual"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
 	                             </div>
                             </div>
                              <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
-	                              <a href="../braces/unloader_fit.php">
+	                              
 	                                <img class="braces-logo-carousel" src="../img/fit/unloader-fit.png" alt="Össur">
 	                                <p class="braces-logo-carousel-p">Ultralight, discreet and clinically proven to alleviate the pain. Ideal for everyday adventures such as shopping and gardening, perhaps a round of golf. </p>
 	                                   
-	                                <img src="../img/fit/unloader-fit-brace.png" class="img-responsive">
-	                                </a>
+	                                <img src="../img/fit/unloader-fit-brace.png" data-ga-type="Carousel" data-ga-title="Details:Unloader-fit" class="img-responsive">
+	                             
 
 	                                
 	                               
@@ -69,18 +69,18 @@ include('../includes/header.php');
 										</div>
 										</div>
 
-										  <a href="unloader_fit.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
+										  <a href="../braces/unloader_fit.php" data-ga-type="button" data-ga-title="Unloader-fit"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
-	                               <a href="../braces/unloader_one.php">
+	                            
 
 	                                <img class="braces-logo-carousel" src="../img/one/unloader-one.png" alt="Össur">
 	                                <p class="braces-logo-carousel-p">Aleviates the pain, improves function and helps reduce your reliance on medication. A comfortable companion for running, cycling and outdoor adventures. </p>
 	   
-	                                <img src="../img/one/unloader-one-brace.png" class="img-responsive">
-	                                </a>
+	                                <img src="../img/one/unloader-one-brace.png" data-ga-type="Carousel" data-ga-title="Details:Unloader-one" class="img-responsive">
+	                               
 
 	                                  
 	                                
@@ -92,17 +92,17 @@ include('../includes/header.php');
 										</div>
 										</div>
 
-										<a href="unloader_one.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
+										<a href="../braces/unloader_one.php" data-ga-type="button" data-ga-title="Unloader-one"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
-	                              <a href="../braces/unloader_custom.php" >
+	                              
 	                                <img class="braces-logo-carousel" src="../img/custom/unloader-custom.png" alt="Össur">
 	                                 <p class="braces-logo-carousel-p">Rigid, durable and customized for heavy-duty pain relief. Custom-made to suit a range of sizes and lifestyles.</p>
 	                                
-	                                <img src="../img/custom/unloader-custom-brace.png" class="img-responsive">
-	                                </a>
+	                                <img src="../img/custom/unloader-custom-brace.png" data-ga-type="Carousel" data-ga-title="Details:Unloader-custom" class="img-responsive">
+	                              
 
 	                                 
 	                           
@@ -115,13 +115,13 @@ include('../includes/header.php');
 										</div>
 										</div>
 
-										 <a href="unloader_custom.php"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
+										 <a href="../braces/unloader_custom.php" data-ga-type="button" data-ga-title="Unloader-custom"><button type="button" class="btn btn-default unloader-btn hover-state">Brace details</button></a>
                                 </div>
                             </div> 
                             </div>
 
-                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev" > <span class="carousel-arrow-left"></span></a>
-                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"><span class="carousel-arrow-right"></span></a>
+                            <a class="left carousel-control" href="#eventCarousel" data-ga-type="UI Element" data-ga-title="left" data-slide="prev" > <span class="carousel-arrow-left"></span></a>
+                            <a class="right carousel-control" href="#eventCarousel" data-ga-type="UI Element" data-ga-title="right" data-slide="next"><span class="carousel-arrow-right"></span></a>
 
                         </div>
                         <!--/carousel-inner-->
@@ -141,10 +141,10 @@ include('../includes/header.php');
 		
 				<div class ="col-md-6 img-responsive index-background-1">
 				 <img class="img-responsive top-left" src="../img/corner_left_top_blue.png"/>  
-				 <a href="../braces">
+				 <a href="../braces" data-ga-type="Button" data-ga-title="Find a brace">
 					<div class ="col-md-10 col-md-offset-1 index-find-text callout-index">
 						<h1>Find the right brace for you</h1>
-						<p class="small">Explore braces </p><span class="arrow-find"></span>
+						<p class="small">Explore braces </p><span class="arrow-find-brace"></span>
 					</div>
 				</a>
 				</div>
@@ -152,7 +152,7 @@ include('../includes/header.php');
 			
 				<div class ="col-md-6 img-responsive index-background-2">	
 				 <img class="img-responsive top-left" src="../img/corner_left_top_yellow.png"/>  
-				 	<a href="../find">
+				 	<a href="../find" data-ga-type="Button" data-ga-title="Find a practitioner">
 					<div class ="col-md-10 col-md-offset-1 index-find-text callout-index">
 						<h1>Get your brace</h1>
 						<p class="small">Find a Practitioner</p><span class="arrow-find"></span>
