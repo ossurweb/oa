@@ -116,7 +116,7 @@
         $(function() {
                     $('#bh-sl-map-container').storeLocator({
                         'maxDistance': true,
-                        'autoGeocode': true,
+                        'autoGeocode': false,
                         'mapSettings' : {
                             zoom : 12,
                             mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -133,9 +133,8 @@
 //Contain to a specific region
 (function($) { $(document).ready(function() { var autocomplete; var geocoder; var input = document.getElementById('bh-sl-address'); var options = { componentRestrictions: {'country':'us'}, types: ['(regions)'] }; autocomplete = new google.maps.places.Autocomplete(input,options); }); })(jQuery);
 
-
- $( "#bh-sl-find" ).click(function() {
-        $('#bh-sl-map-container').storeLocator({
+$( "#bh-sl-find" ).on( "click", function() {
+       $('#bh-sl-map-container').storeLocator({
                         'autoGeocode': true,
                         'mapSettings' : {
                             zoom : 12,
@@ -147,6 +146,10 @@
 
                         }
                     });
+});
+
+ $( "#bh-sl-find" ).click(function() {
+        
 });
 
 //hide/show adresslist in mobile

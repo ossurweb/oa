@@ -83,6 +83,7 @@ body {
 
 
 
+
 h3 strong{
 font-weight:600!important;
 }
@@ -100,6 +101,21 @@ right:45px;
   .container {
     width: 1440px;
   }
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+
+    
 }
 
 
@@ -403,10 +419,41 @@ margin:0 auto;
 }
 
 .unloader-btn:hover{
-  background-color: #fff !important;
-  color:#0082c4!important;
+  background-color: #0072ac !important;
+
  
 }
+
+.unloader-btn-1 {
+  background-color: #808080 !important;
+  color: #fff !important;
+  border: 0px !important;
+  font-size: 12px !important;
+  font-weight: 700;
+  text-transform: uppercase !important;
+  padding: 1em 2em 1em 2em !important;
+  letter-spacing: 1px !important;
+  transition: all 0.3s ease 0s;
+}
+
+.unloader-btn-1:hover{
+  background-color: #707070 !important;
+  
+ 
+}
+
+.unloader-btn-2 {
+  background-color: transparent!important;
+  color: #000 !important;
+  border: 0px !important;
+  font-size: 12px !important;
+  font-weight: 300!important;
+  padding: 1em 0em 0em 0em !important;
+  letter-spacing: 1px !important;
+  cursor: auto!important;
+}
+
+
 
 /*footer*/
 .footerWidget h3 {
@@ -431,8 +478,33 @@ margin:0 auto;
 
 /*success*/
 .success-text {
+  line-height: 200%;
   padding-top: 6%;
+  text-align: left;
 }
+
+.success-text-top {
+ top:-50px;
+}
+
+.success-text h3{
+font-weight: 700;
+  color: #808080;
+  text-transform: uppercase !important;
+  font-style: italic;
+  /*letter-spacing: 1px;*/
+  font-size: 17px;
+}
+.success-text h4{
+font-weight: 300;
+  color: #808080;
+  font-size: 15px;
+}
+
+
+
+
+
 .success-img-alignment {
   padding-top: 1%;
   text-align: center;
@@ -441,10 +513,44 @@ margin:0 auto;
   margin: 0 auto;
 }
 .thumb {
-  top: 20px;
+  top: 10px;
+}
+.thumbnail{
+padding:0!important;
+background-color: transparent!important;
+border:0!important;
 }
 
 /*about*/
+.rotate-icon {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.rotate-icon-2 {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.plus-icon{
+    background: url(../img/plus_icon.png);
+    height: 30px;
+    width: 30px;
+    /* height: 10%; */
+
+    background-repeat: no-repeat;
+}
+.minus-icon{
+    background: url(../img/minus_icon.png);
+    height: 30px;
+    width: 30px;
+    /* height: 10%; */
+
+    background-repeat: no-repeat;
+}
+
 
 /*index*/
 .index-top {
@@ -556,22 +662,26 @@ display: inline-block;
   width: 1440px;
   height: 398px;
 }
+.success {
+  background: url(../img/success-top.jpg) no-repeat center;
+  width: 1440px;
+  height: 398px;
+}
 .success-bacgkround-don {
   background: url(../img/success-don-background.png) no-repeat center;
   min-height: 320px;
-  background-position: 40% 20%;
+  background-position: 30% 20%;
  
 }
 
 .success-bacgkround-joan {
   background: url(../img/success-joan-background.png) no-repeat center;
   min-height: 320px;
-  background-position: 40% 20%;
+  background-position: 30% 20%;
  
 }
 
-#unloader-fit {
-  padding-top: 3em;
+
 }
 .unloader-fit-text {
   color: #000;
@@ -676,10 +786,15 @@ right:20px!important;
 .accordion-quote {
   text-align: left;
   margin-top: 4%;
+
 }
 .accordion-quote h3 {
   color: #0082c4;
   margin-left: 15px;
+  color: #0082c4;
+  font-size: 17px;
+  text-transform: uppercase;
+
 }
 .accordion-quote p {
   color: #404040;
@@ -760,6 +875,21 @@ right:20px!important;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
 }
+
+#accordion-1 .panel-title i.glyphicon {
+  -moz-transition: -moz-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+#accordion-2 .panel-title i.glyphicon {
+  -moz-transition: -moz-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
 .accordion-nav-section {
   text-align: center;
 }
@@ -767,25 +897,10 @@ right:20px!important;
   background-color: #f8f8f8 !important;
   padding:1em;
 }
-.rotate-icon {
-  -webkit-transform: rotate(-180deg);
-  -moz-transform: rotate(-180deg);
-  transform: rotate(-180deg);
-}
-.glyphicon-plus {
-  border: solid 1px #0082c4;
-  border-radius: 50% !important;
-  margin-top: -16px;
-  color: #0082c4 !important;
-}
-.glyphicon-minus {
-  border: solid 1px #0082c4;
-  border-radius: 50% !important;
-  margin-top: -16px;
-  color: #0082c4 !important;
-}
+
 .glyphicon-menu-down {
   margin-right: 3px;
+  font-size: 13px;
 }
 .panel-group .panel {
   border: none;
@@ -827,7 +942,24 @@ right:20px!important;
   line-height: 200%;
   border: 0 !important;
 }
+.panel-body p {
+ font-style:normal!important;
+}
 
+/*find*/
+
+.search-icon{
+ background: url(../img/search_icon.png) no-repeat;
+width: 15px;
+height: 15px;
+
+}
+.find-icon{
+ background: url(../img/find_icon.png) no-repeat;
+width: 15px;
+height: 15px;
+  
+}
 /*tooltips-spots*/
 blockquote {
   position: relative;
@@ -895,8 +1027,8 @@ blockquote .notch-left {
 .hotspot-left {
   position: relative;
   width: 40%;
-  left: 40%;
-  top: -110px;
+  left: 35%;
+  top: -90px;
 }
 .spots {
   position: absolute;
@@ -930,7 +1062,7 @@ blockquote .notch-left {
 #spot-01-outer {
   position: absolute;
   top: 75%;
-  left: 60%;
+  left: 67%;
   border: solid 1px #0082c4;
   height: 60px;
   width: 60px;
@@ -958,7 +1090,7 @@ blockquote .notch-left {
 }
 #spot-02-outer {
   position: absolute;
-  top: 15%;
+  top: 21%;
   left: 60%;
   border: solid 1px #0082c4;
   height: 60px;
@@ -1040,9 +1172,16 @@ blockquote .notch-left {
 }
 .headline {
   line-height: 200%;
+  padding-top: 6em;
+
 }
 .headline-main {
   line-height: 200%;
+}
+
+.headline-info{
+  line-height: 200%;
+
 }
 .headline h3 {
   font-weight: 700;
@@ -1051,6 +1190,7 @@ blockquote .notch-left {
   font-style: italic;
   /*letter-spacing: 1px;*/
   font-size: 17px;
+
 }
 .headline-main h3 {
      font-weight: 800;
@@ -1060,6 +1200,16 @@ blockquote .notch-left {
     /* letter-spacing: 1px; */
     font-size: 21px;
     line-height: 27px;
+}
+
+.headline-info h3 {
+  font-weight: 700;
+  color: #0082c4;
+  text-transform: uppercase !important;
+  font-style: italic;
+  /*letter-spacing: 1px;*/
+  font-size: 17px;
+
 }
 .percentage-size {
   font-weight: 900;
@@ -1094,6 +1244,8 @@ blockquote .notch-left {
     top: 50%;
    
   }
+
+
 }
 
 
@@ -1114,6 +1266,10 @@ blockquote .notch-left {
    .hover-state{
   margin-top: -180%;
   }
+  .success-text-top {
+  top:-20px;
+}
+ 
 }
 
 @media (max-width:767px) {
@@ -1126,7 +1282,7 @@ blockquote .notch-left {
     right: 25px;
   }
   .nav-bottom-height {
-    height: 300px;
+    height: 480px;
   }
   .carousel-inner .active.left {
     left: -60%;
@@ -1150,6 +1306,42 @@ blockquote .notch-left {
   margin-top:0;
 
   }
+
+  .fit-backgr-1 {
+    background-position: 37% 20%;
+  }
+
+   .nav-bottom-right {
+    width: 50%;
+    top:10px;
+  }
+  .nav-bottom-left {
+    width: 50%;
+    top:10px;
+  }
+
+   .hotspot-left {
+    left: 5%;
+    top: -80px;
+    width:90%;
+  }
+
+    .headline-main .btn{
+   	display: block!important;
+   	margin:auto!important;
+   	width: 90%!important;
+    margin-bottom: 1em!important;
+   }
+
+   .success-three-img{
+    height:100%;
+    }
+
+  .success-three-img-mobile{
+  height:250px;
+  }
+
+
 
  }
 
@@ -1204,6 +1396,10 @@ blockquote .notch-left {
     top: 47%;
    
   }
+
+   .nav-bottom-height {
+    height: 395px;
+  }
 }
 
 
@@ -1217,6 +1413,16 @@ blockquote .notch-left {
   .top-right {
     height: 0% !important;
   }
+
+    .callout-white h1 {
+    font-size: 32px;
+  }
+  .accordion-nav-headline{
+  text-align: left;
+  }
+
+   
+
 }
 @media (max-width:375px) {
 
@@ -1238,19 +1444,13 @@ blockquote .notch-left {
     position: absolute;
     right: 5px;
   }
-  .nav-bottom-right {
-    right: 0px;
-  }
-  .nav-bottom-left {
-    left: -5px;
-  }
-  .callout-white h1 {
-    font-size: 32px;
-  }
 
 	  .braces-logo-carousel-p{
 	min-height: 170px;
 	}
+	   .nav-bottom-height {
+    height: 300px;
+  }
 }
 @media (max-width:320px) {
 

@@ -79,7 +79,19 @@
     display: block;
     width: auto;
   }
+  
 }
+
+@media (max-width:767px) {
+  .bh-sl-container button {
+    float: none!important;
+   
+}
+  
+}
+
+
+
 
 .bh-sl-container .form-input input, .bh-sl-container .form-input select {
   box-sizing: border-box;
@@ -216,6 +228,8 @@
   float: left;
   width: 100%;
   border-bottom: 1px solid #eee;
+  background-color: #fff;
+  padding-bottom: 1em;
 }
 .bh-sl-container .bh-sl-loc-list .list-label {
   background-image: url("../../assets/img/marker.png");
@@ -223,7 +237,6 @@
   color: #fff;
   display: block;
   float: left;
-  font-weight: bold;
   margin: 10px 0 0 15px;
   padding: 5px 10px;
   text-align: center;

@@ -85,7 +85,7 @@ include('../includes/header.php');
 						<span class="activity"></span><p class="symbol-margin"><strong>Activities:</strong> track & field, snow sports, basketball</p>
 					
 						<br>
-						<a href="dual.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
+						<a href="unloader_dual.php"><button type="button" class="btn btn-default unloader-btn">Brace details</button></a>
 					</div>
 				</div>
 			</div>

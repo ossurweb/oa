@@ -102,6 +102,7 @@
 		'callbackListClick'        : null,
 		'callbackMarkerClick'      : null,
 		'callbackFilters'          : null,
+		
 		// Language options
 		'addressErrorAlert'        : 'Unable to find address',
 		'autoGeocodeErrorAlert'    : 'Automatic location detection failed. Please fill in your address or zip code.',
@@ -421,7 +422,7 @@
 				});
 			}
 			else {
-				$(document).on('submit.'+pluginName, '#' + this.settings.formID, function (e) {
+				$(document).on('submit.'+ pluginName, '#' + this.settings.formID, function (e) {
 					_this.processForm(e);
 				});
 			}
@@ -568,8 +569,9 @@
 				if (this.settings.autoGeocode !== null) {
 					_this.writeDebug('Button Geo');
 
-					$(document).on('click.'+pluginName, '#' + this.settings.geocodeID, function () {
+					$(document).on('click.'+ pluginName, '#' + this.settings.geocodeID, function () {
 						_this.htmlGeocode();
+						
 					});
 				}
 			}
@@ -973,11 +975,10 @@
 			else {
 				// Letter markers image
 				letterMarkerImg = {
-					url: 'http://www.ossur.com/examples/hb/store_locator/marker.png'
+					url: 'https://www.ossur.com/images/_regional/us/oa_site/marker.png'
 				};
 
 				labelIndex++;
-      			console.log(labelIndex)
 
 				// Letter markers
 				marker = new google.maps.Marker({

@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+
+  
   $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     $('nav').addClass('shrink');
@@ -188,17 +190,39 @@ $(".main-brace .hover-state").css("opacity","0");
         $(e.target)
                 .prev('.panel-heading')
                 .find("i")
-                .toggleClass('rotate-icon glyphicon-plus glyphicon-minus');
+                .toggleClass('rotate-icon plus-icon minus-icon');
         $('.panel-body.animated').toggleClass('zoomIn zoomOut');
     }
     
+
     $('#accordion').on('hide.bs.collapse', toggleChevron);
     $('#accordion').on('show.bs.collapse', toggleChevron);
+
+    $('#accordion-1').on('hide.bs.collapse', toggleChevron);
+    $('#accordion-1').on('show.bs.collapse', toggleChevron);
+
+    $('#accordion-2').on('hide.bs.collapse', toggleChevron);
+    $('#accordion-2').on('show.bs.collapse', toggleChevron);
 
 
     $("#treatment").click(function() {
         $('html, body').animate({
             scrollTop: $(".non-surgical").offset().top
+        }, 500);
+    });
+
+
+    $("#appointment").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".getting-a-brace").offset().top
+        }, 500);
+    });
+
+
+
+    $("#braces").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".why-and-how").offset().top
         }, 500);
     });
 

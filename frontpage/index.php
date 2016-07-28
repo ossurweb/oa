@@ -5,11 +5,11 @@ include('../includes/header.php');
 <section class="first-section" id="index-top">
 	<div class="container index-top img-responsive">
 
-				<div class ="col-md-3 col-md-offset-2 callout-white index-text">	
+				<div class ="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2 callout-white index-text">	
 					<h1>The Adventure ahead</h1>
 					<p>When you have knee osteoarthritis, you want a solution you can rely on. Take control of the pain, quickly and easily. Then take that hiking trip, ride your bike or keep up with the kids. Choose your adventure and the Unloader® will support you every step of the way.</p>
 					<br>
-					 <a href="../braces"><button type="button" class="btn btn-default unloader-btn">View unloader braces</button></a>
+					 <a href="../braces" data-ga-type="" data-ga-title=""><button type="button" class="btn btn-default unloader-btn">View unloader braces</button></a>
 				</div>
 
 				<div class="scroll-for-more"><span class="menu-down page-scroll" href="#index-carousel"><img src="../img/menu-down.png" alt="menu-down" height="20" width="35"></span>
@@ -97,7 +97,7 @@ include('../includes/header.php');
                             </div>
                             <div class="item">
                                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 zoomIn">
-	                              <a href="../braces/unloader_custom.php">
+	                              <a href="../braces/unloader_custom.php" >
 	                                <img class="braces-logo-carousel" src="../img/custom/unloader-custom.png" alt="Össur">
 	                                 <p class="braces-logo-carousel-p">Rigid, durable and customized for heavy-duty pain relief. Custom-made to suit a range of sizes and lifestyles.</p>
 	                                
@@ -105,7 +105,7 @@ include('../includes/header.php');
 	                                </a>
 
 	                                 
-	                                 
+	                           
 										<div class="braces-decription">
 											<div class="braces-decription-content">
 											<span class="osteo"></span><p class="symbol-margin"><strong>Osteoarthritis:</strong>moderate to severe</p>
@@ -120,7 +120,7 @@ include('../includes/header.php');
                             </div> 
                             </div>
 
-                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"> <span class="carousel-arrow-left"></span></a>
+                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev" > <span class="carousel-arrow-left"></span></a>
                             <a class="right carousel-control" href="#eventCarousel" data-slide="next"><span class="carousel-arrow-right"></span></a>
 
                         </div>
